@@ -1,0 +1,27 @@
+<a href="#/genres">Go Back</a>
+<div class="panel panel-default" >
+  <div class="panel-heading">
+    <h3 class="panel-title">Edit Genre</h3>
+  </div>
+  <div class="panel-body">
+    <div class="row">
+        <div class="col-md-12">
+          <form ng-submit="updateGenre()" ng-init="getGenre()">
+            <div class="form-group">
+              <label >Name</label>
+              <input type="text" class="form-control" ng-model="genre.name" placeholder="Name">
+            </div>
+           
+            <div class="form-group">
+              <label >Creation date</label>
+              <input type="date" class="form-control" ng-model="genre.create_date"  placeholder="Creation date">
+            </div>
+            
+            <button type="submit" class="btn btn-default">Submit</button>
+          </form>
+        </div>  
+    </div> 
+    	</div>
+    </div>
+  </div>
+</div>

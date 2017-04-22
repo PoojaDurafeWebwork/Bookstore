@@ -24,8 +24,10 @@ myApp.config(function($routeProvider,$locationProvider){
 	}).when('/genres/genre',{
 		controller:'GenreController',
 		templateUrl:'views/genre.html'
-	}
-	)
+	}).when('/genres/add',{
+		controller:'GenreController',
+		templateUrl:'views/add_genre.html'
+	})
 	.otherwise({
 		redirectTo :'/'
 	});

@@ -12,7 +12,8 @@
   	"mongoose":"*",
     "jquery" :"*",
     "bootstrap":"*",
-    "angular":"*"
+    "angular":"*",
+    "angular-route":"*"
   },
   "author": "pooja durafe",
   "license": "ISC"

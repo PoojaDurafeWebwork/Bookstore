@@ -10,7 +10,9 @@
   	"express" : "*" ,
   	"body-parser" : "*" ,
   	"mongoose":"*",
-    "jquery" :"*"
+    "jquery" :"*",
+    "bootstrap":"*",
+    "angular":"*",
   },
   "author": "pooja durafe",
   "license": "ISC"

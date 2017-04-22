@@ -21,7 +21,11 @@ myApp.config(function($routeProvider,$locationProvider){
 	.when('/books/edit/:id',{
 		controller:'BooksController',
 		templateUrl:'views/edit_book.html'
-	})
+	}).when('/genres/genre',{
+		controller:'GenreController',
+		templateUrl:'views/genre.html'
+	}
+	)
 	.otherwise({
 		redirectTo :'/'
 	});

@@ -88,7 +88,7 @@ app.post('/api/books',function(req,res){
 	Book.addBook(book,function(err,genre){
 		if(err){
 			throw err;
-		}s
+		}
 		res.json(book);
 	});
 });

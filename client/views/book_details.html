@@ -1,3 +1,4 @@
+<a href="#/books">Go Back</a>
 <div class="panel panel-default" ng-init="getBook()">
   <div class="panel-heading">
     <h3 class="panel-title">{{book.title}}</h3>
@@ -16,9 +17,16 @@
               <li class="list-group-item">Pages : {{book.pages}}               
               </li>
           </ul>
+            <a target="_blank" href="{{book.buy_url}}" class="btn btn-primary">Buy this book</a>
+
         </div>
     </div> 
     	</div>
     </div>
   </div>
+</div>
+
+<div class="pull-right">
+  <a href="#/books/edit/{{book._id}}">Edit</a>  | <a href="#" ng-click="removeBook(book._id)">Delete</a>
+  
 </div>

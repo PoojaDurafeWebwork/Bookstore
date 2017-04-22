@@ -12,7 +12,7 @@
   	"mongoose":"*",
     "jquery" :"*",
     "bootstrap":"*",
-    "angular":"*",
+    "angular":"*"
   },
   "author": "pooja durafe",
   "license": "ISC"

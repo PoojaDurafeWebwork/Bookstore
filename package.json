@@ -9,7 +9,8 @@
   "dependencies":{
   	"express" : "*" ,
   	"body-parser" : "*" ,
-  	"mongoose":"*"
+  	"mongoose":"*",
+    "jquery" :"*"
   },
   "author": "pooja durafe",
   "license": "ISC"
